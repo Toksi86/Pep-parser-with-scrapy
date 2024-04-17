@@ -1,7 +1,9 @@
+from constants import PEP_PARSE
+
 BOT_NAME = 'pep_parse'
 
-SPIDER_MODULES = ['pep_parse.spiders']
-NEWSPIDER_MODULE = 'pep_parse.spiders'
+SPIDER_MODULES = [PEP_PARSE]
+NEWSPIDER_MODULE = PEP_PARSE
 
 ROBOTSTXT_OBEY = True
 
