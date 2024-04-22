@@ -1,4 +1,4 @@
-from constants import PEP_PARSE
+from .constants import PEP_PARSE
 
 BOT_NAME = 'pep_parse'
 
